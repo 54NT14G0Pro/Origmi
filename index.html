@@ -7,9 +7,13 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
     <section id="intro">
         <h1>Origami</h1>
         <p>Bienvenido al mundo del arte y las manualidades. Está página es para mejorar tus habilidades creativas usando varias
@@ -58,7 +62,27 @@
         </a>
 
     </section>
+    <section id="fotos">
+        <h1>Carrusel de Origami</h1>
+    <div id="myCarousel" class="carousel slide">
+        <center>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="https://es.vexels.com/png-svg/vista-previa/211109/ilustracion-de-origami-dragon-rojo" target="_blank"><img src="dragon.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://five-nights-at-candys.fandom.com/wiki/Origami_Cat" target="_blank"><img src="gato.webp" alt=""></a>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </center>
+    </div>
+    </section>
 
+
+    </div>
 </body>
 
 </html>
